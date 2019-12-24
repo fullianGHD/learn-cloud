@@ -8,6 +8,7 @@
         <module>server</module>
         <module>producer</module>
         <module>comsume</module>
+        <module>monitoring</module>
     </modules>
 
 

@@ -2,6 +2,7 @@ package com.ghd.controller;
 
 import com.ghd.service.OrderService;
 import com.ghd.service.UserService;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -31,8 +32,15 @@ public class TestController {
     }
 
 
+
     @GetMapping("/getUser")
     public String getUser(){
         return userService.queryUser();
     }
+
+    public String fallbackMethod(){
+        return "调用超时返回的结果";
+    }
+
+
 }

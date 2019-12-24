@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="comsume" />
         <module name="server" />
+        <module name="monitoring" />
         <module name="producer" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="comsume" options="-parameters" />
       <module name="learn-cloud" options="-parameters" />
+      <module name="monitoring" options="-parameters" />
       <module name="producer" options="-parameters" />
       <module name="server" options="-parameters" />
     </option>
