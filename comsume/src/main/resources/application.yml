@@ -12,3 +12,9 @@ management:
   endpoint:
     health:
       show-details: always
+  sleuth:
+     # 将采样比例设置为 1.0，也就是全部都需要。默认是 0.1
+    sampler:
+      probability: 1
+  zipkin:
+    base-url: http://192.168.159.129:9411/
