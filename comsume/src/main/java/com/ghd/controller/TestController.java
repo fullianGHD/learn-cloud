@@ -22,7 +22,6 @@ public class TestController {
 
     @GetMapping("/payStatus/{orderSn}")
     public String payStatus(@PathVariable("orderSn") String orderSn){
-        System.out.println(orderSn);
         return orderService.getPayStatus(orderSn);
     }
 

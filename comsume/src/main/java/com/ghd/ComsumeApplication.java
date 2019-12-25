@@ -17,19 +17,8 @@ import org.springframework.web.client.RestTemplate;
 @EnableHystrix
 public class ComsumeApplication {
 
-    @Bean
-    @LoadBalanced
-    RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
 
-    @Bean
-    public ServletRegistrationBean hystrixMetricsStreamServlet() {
-        System.out.println("加载监控可视化.....");
-        ServletRegistrationBean registration = new ServletRegistrationBean(new HystrixMetricsStreamServlet());
-        registration.addUrlMappings("/actuator/hystrix.stream");
-        return registration;
-    }
+
 
     public static void main(String[] args) {
         SpringApplication.run(ComsumeApplication.class,args);
