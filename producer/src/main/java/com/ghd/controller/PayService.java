@@ -1,11 +1,9 @@
 package com.ghd.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
@@ -32,4 +30,16 @@ public class PayService {
         return list;
     }
 
+    @GetMapping("/getUserList")
+    public List getUserList(@RequestParam(value = "groupId") Integer groupId){
+        if(!Objects.isNull(groupId)){
+            ArrayList<Object> list = new ArrayList<>();
+            list.add("1");
+            list.add("2");
+            list.add("3");
+            list.add("4");
+            return list;
+        }
+        return Collections.emptyList();
+    }
 }

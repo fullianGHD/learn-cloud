@@ -37,6 +37,12 @@ public class TestController {
         return userService.queryUser();
     }
 
+    @GetMapping("/getUserList")
+    public List getUserList(Integer groupId){
+        return orderService.getUserList(groupId);
+    }
+
+
     public String fallbackMethod(){
         return "调用超时返回的结果";
     }

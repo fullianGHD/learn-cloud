@@ -22,6 +22,12 @@ public class OrderFallBackFactory implements FallbackFactory<OrderService> {
                 System.out.println("使用fallbackFactory返回");
                 return Collections.emptyList();
             }
+
+            @Override
+            public List getUserList(Integer groupId) {
+                System.out.println("使用fallbackFactory返回");
+                return Collections.emptyList();
+            }
         };
     }
 }

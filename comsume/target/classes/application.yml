@@ -12,3 +12,5 @@ management:
   endpoint:
     health:
       show-details: always
+#想要的header加在配置文件中，要不调用链路时会屏蔽掉
+#sensitive-headers: accessToken

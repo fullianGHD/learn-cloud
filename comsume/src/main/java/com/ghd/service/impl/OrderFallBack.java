@@ -19,4 +19,10 @@ public class OrderFallBack implements OrderService {
         System.out.println("超时或异常");
         return Collections.emptyList();
     }
+
+    @Override
+    public List getUserList(Integer groupId) {
+        System.out.println("超时或异常");
+        return Collections.emptyList();
+    }
 }

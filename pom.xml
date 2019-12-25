@@ -9,6 +9,7 @@
         <module>producer</module>
         <module>comsume</module>
         <module>monitoring</module>
+        <module>zuul</module>
     </modules>
 
 
