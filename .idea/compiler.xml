@@ -10,6 +10,7 @@
         <module name="monitoring" />
         <module name="producer" />
         <module name="server" />
+        <module name="zipkin" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="monitoring" target="1.8" />
       <module name="producer" target="1.8" />
       <module name="server" target="1.8" />
+      <module name="zipkin" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>

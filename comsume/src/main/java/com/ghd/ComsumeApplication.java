@@ -17,9 +17,6 @@ import org.springframework.web.client.RestTemplate;
 @EnableHystrix
 public class ComsumeApplication {
 
-
-
-
     public static void main(String[] args) {
         SpringApplication.run(ComsumeApplication.class,args);
     }

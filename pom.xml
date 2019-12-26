@@ -10,6 +10,7 @@
         <module>comsume</module>
         <module>monitoring</module>
         <module>zuul</module>
+        <module>zipkin</module>
     </modules>
 
 

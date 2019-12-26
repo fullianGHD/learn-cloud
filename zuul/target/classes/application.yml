@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: zuul-client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+# 路由规则配置
+zuul:
+  routes:
+    r-comsume:
+      path: /comsumer/**
+      #是否跳过前缀，如果不跳过应为没个model设置servlet：context-path: /comsumer前缀
+      stripPrefix: true
+      serviceId: COMSUME-CLIENT
+    r-producter:
+      path: /producter/**
+      stripPrefix: true
+      serviceId: PRODUCTER-CLIENT
