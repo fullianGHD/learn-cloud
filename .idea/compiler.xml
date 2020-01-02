@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="comsume" />
         <module name="monitoring" />
+        <module name="mq_comsume" />
+        <module name="mq_producer" />
         <module name="producer" />
         <module name="server" />
         <module name="zipkin" />
@@ -18,6 +20,8 @@
       <module name="comsume" target="1.8" />
       <module name="learn-cloud" target="1.8" />
       <module name="monitoring" target="1.8" />
+      <module name="mq_comsume" target="1.8" />
+      <module name="mq_producer" target="1.8" />
       <module name="producer" target="1.8" />
       <module name="server" target="1.8" />
       <module name="zipkin" target="1.8" />

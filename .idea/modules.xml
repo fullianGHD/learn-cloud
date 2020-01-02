@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/comsume/comsume.iml" filepath="$PROJECT_DIR$/comsume/comsume.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-cloud.iml" filepath="$PROJECT_DIR$/learn-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/monitoring/monitoring.iml" filepath="$PROJECT_DIR$/monitoring/monitoring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq_comsume/mq_comsume.iml" filepath="$PROJECT_DIR$/mq_comsume/mq_comsume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq_producer/mq_producer.iml" filepath="$PROJECT_DIR$/mq_producer/mq_producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/producer/producer.iml" filepath="$PROJECT_DIR$/producer/producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
       <module fileurl="file://$PROJECT_DIR$/zipkin/zipkin.iml" filepath="$PROJECT_DIR$/zipkin/zipkin.iml" />

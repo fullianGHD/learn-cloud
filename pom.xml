@@ -11,6 +11,8 @@
         <module>monitoring</module>
         <module>zuul</module>
         <module>zipkin</module>
+        <module>mq_producer</module>
+        <module>mq_comsume</module>
     </modules>
 
 
