@@ -3,10 +3,16 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/comsume" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comsume/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elasticsearch/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/monitoring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitoring/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/producer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zipkin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul/src/main/java" charset="UTF-8" />
   </component>
 </project>
