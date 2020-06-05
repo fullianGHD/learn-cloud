@@ -11,6 +11,14 @@
         <module>monitoring</module>
         <module>zuul</module>
         <module>zipkin</module>
+        <module>miaosha</module>
+        <module>corejava</module>
+        <module>security_server</module>
+        <module>learn_jwt</module>
+        <module>jwt_demo</module>
+        <module>learn-security</module>
+        <module>security-app</module>
+        <module>export_excle</module>
     </modules>
 
 
