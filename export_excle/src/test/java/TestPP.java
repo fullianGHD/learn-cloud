@@ -5,6 +5,7 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
@@ -52,5 +53,14 @@ public class TestPP {
     }
 
 
+    @Test
+    public void testDecimal(){
+        BigDecimal a = new BigDecimal(348.25);
+        BigDecimal b = new BigDecimal(348.25);
+        BigDecimal c = new BigDecimal(0);
+        int i = a.subtract(b).compareTo(c);
+        System.out.println(i != 0);
+
+    }
 
 }

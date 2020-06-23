@@ -12,7 +12,6 @@
         <module name="security-app" />
         <module name="monitoring" />
         <module name="zipkin" />
-        <module name="security_server" />
         <module name="zuul" />
         <module name="server" />
         <module name="corejava" />
@@ -20,13 +19,17 @@
         <module name="mq_producer" />
         <module name="jwt_demo" />
         <module name="export_excle" />
+        <module name="mode23" />
+        <module name="producer" />
         <module name="elasticsearch" />
         <module name="miaosha" />
-        <module name="producer" />
+        <module name="security_server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="auth-security" target="1.8" />
+      <module name="design_mode" target="1.8" />
+      <module name="designm_ode" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -34,6 +37,8 @@
       <module name="auth-security" options="-parameters" />
       <module name="comsume" options="-parameters" />
       <module name="corejava" options="-parameters" />
+      <module name="design_mode" options="-parameters" />
+      <module name="designm_ode" options="-parameters" />
       <module name="elasticsearch" options="-parameters" />
       <module name="export_excle" options="-parameters" />
       <module name="jwt_demo" options="-parameters" />
@@ -41,6 +46,7 @@
       <module name="learn-security" options="-parameters" />
       <module name="learn_jwt" options="-parameters" />
       <module name="miaosha" options="-parameters" />
+      <module name="mode23" options="-parameters" />
       <module name="monitoring" options="-parameters" />
       <module name="mq_comsume" options="-parameters" />
       <module name="mq_producer" options="-parameters" />
